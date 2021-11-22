@@ -4,7 +4,7 @@ CS 613: Natural Language Processing
 
 ## Demo Web App
 
-[adaptive.glintx.com:5000](adaptive.glintx.com:5000) - On localhost currently due to technical issues related to the GPU performance of server.
+[demo_app](http://10.0.62.205:5000)
 
 ## Video
 
