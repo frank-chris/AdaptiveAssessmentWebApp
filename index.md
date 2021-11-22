@@ -4,11 +4,11 @@ CS 613: Natural Language Processing
 
 ## Demo Web App
 
-Coming soon
+[adaptive.glintx.com:5000](adaptive.glintx.com:5000) - On localhost currently due to technical issues related to the GPU performance of server.
 
 ## Video
 
-[![could not be loaded](images/thumbnail.png)]()
+[![could not be loaded](images/thumbnail.png)](https://youtu.be/y0bKGi86Fk4)
 
 
 ## Slides
