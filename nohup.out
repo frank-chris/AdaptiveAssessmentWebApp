@@ -1,0 +1,187 @@
+ * Serving Flask app "web_app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with inotify reloader
+ * Debugger is active!
+ * Debugger PIN: 264-252-308
+ * Detected change in '/home/adaptive/project/AdaptiveAssessmentWebApp/vae/generate_qa.py', reloading
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+ * Serving Flask app "web_app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with inotify reloader
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertModel: ['cls.seq_relationship.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+ * Debugger is active!
+ * Debugger PIN: 123-741-141
+10.0.200.76 - - [22/Nov/2021 21:50:05] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:50:09] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:50:30] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:50:36] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  8.46it/s]100%|██████████| 1/1 [00:00<00:00,  8.44it/s]
+10.0.200.76 - - [22/Nov/2021 21:50:41] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:50:53] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:50:54] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:50:55] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:51:05] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:51:21] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:51:31] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:51:45] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:51:47] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:51:48] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:51:55] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:52:02] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:52:11] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:52:13] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:53:10] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:53:13] "[37mPOST / HTTP/1.1[0m" 200 -
+tensor(0.6505, device='cuda:0') tensor(0.7047, device='cuda:0')
+tensor(0.2222, device='cuda:0') tensor(-0.0765, device='cuda:0')
+tensor(0.0436, device='cuda:0') tensor(0.0263, device='cuda:0')
+tensor(0.7108, device='cuda:0') tensor(0.4703, device='cuda:0')
+tensor(0.2186, device='cuda:0') tensor(0.3428, device='cuda:0')
+tensor(0.3132, device='cuda:0') tensor(-0.0351, device='cuda:0')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 11.47it/s]
+10.0.200.76 - - [22/Nov/2021 21:53:15] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:53:22] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:57:34] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [22/Nov/2021 21:58:10] "[37mGET / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:04:33] "[37mGET / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:04:33] "[37mGET /static/images/1.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:04:33] "[37mGET /static/images/3.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:04:33] "[37mGET /static/images/4.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:04:33] "[37mGET /static/images/5.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:04:33] "[37mGET /static/images/6.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:04:33] "[37mGET /static/images/2.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:04:34] "[37mGET /static/images/7.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:04:34] "[37mGET /static/images/8.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:04:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+172.16.4.6 - - [22/Nov/2021 22:04:38] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.20it/s]100%|██████████| 1/1 [00:00<00:00,  9.18it/s]
+172.16.4.6 - - [22/Nov/2021 22:04:42] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  8.51it/s]100%|██████████| 1/1 [00:00<00:00,  8.49it/s]
+172.16.4.6 - - [22/Nov/2021 22:05:04] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.06it/s]100%|██████████| 1/1 [00:00<00:00,  9.04it/s]
+172.16.4.6 - - [22/Nov/2021 22:05:13] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  8.78it/s]100%|██████████| 1/1 [00:00<00:00,  8.76it/s]
+172.16.4.6 - - [22/Nov/2021 22:05:21] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  6.92it/s]100%|██████████| 1/1 [00:00<00:00,  6.91it/s]
+172.16.4.6 - - [22/Nov/2021 22:06:00] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  8.26it/s]100%|██████████| 1/1 [00:00<00:00,  8.24it/s]
+172.16.4.6 - - [22/Nov/2021 22:06:20] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  8.76it/s]100%|██████████| 1/1 [00:00<00:00,  8.74it/s]
+172.16.4.6 - - [22/Nov/2021 22:06:28] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  8.85it/s]100%|██████████| 1/1 [00:00<00:00,  8.83it/s]
+172.16.4.6 - - [22/Nov/2021 22:06:35] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:06:47] "[37mGET / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:06:48] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:06:50] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:07:08] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:07:37] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:08:28] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:08:30] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:08:32] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:08:34] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [22/Nov/2021 22:08:43] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [23/Nov/2021 01:48:18] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [23/Nov/2021 01:48:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+172.16.4.6 - - [23/Nov/2021 11:34:08] "[37mGET / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:08] "[37mGET /static/images/1.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:08] "[37mGET /static/images/4.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:08] "[37mGET /static/images/3.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:08] "[37mGET /static/images/2.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:08] "[37mGET /static/images/5.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:08] "[37mGET /static/images/6.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:08] "[37mGET /static/images/7.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:08] "[37mGET /static/images/8.png HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+172.16.4.6 - - [23/Nov/2021 11:34:11] "[37mPOST / HTTP/1.1[0m" 200 -
+tensor(0.3661, device='cuda:0') tensor(0.7047, device='cuda:0')
+tensor(0.3294, device='cuda:0') tensor(-0.0765, device='cuda:0')
+tensor(0.1900, device='cuda:0') tensor(0.0263, device='cuda:0')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 10.93it/s]
+172.16.4.6 - - [23/Nov/2021 11:34:13] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  8.62it/s]100%|██████████| 1/1 [00:00<00:00,  8.60it/s]
+172.16.4.6 - - [23/Nov/2021 11:34:15] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  7.90it/s]100%|██████████| 1/1 [00:00<00:00,  7.88it/s]
+172.16.4.6 - - [23/Nov/2021 11:34:17] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.75it/s]100%|██████████| 1/1 [00:00<00:00,  9.74it/s]
+172.16.4.6 - - [23/Nov/2021 11:34:18] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  7.41it/s]100%|██████████| 1/1 [00:00<00:00,  7.40it/s]
+172.16.4.6 - - [23/Nov/2021 11:34:20] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.02it/s]100%|██████████| 1/1 [00:00<00:00,  9.00it/s]
+172.16.4.6 - - [23/Nov/2021 11:34:22] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:27] "[37mGET / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:28] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:29] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:32] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:37] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:40] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:42] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:43] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:45] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:47] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:49] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:52] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:55] "[37mPOST / HTTP/1.1[0m" 200 -
+172.16.4.6 - - [23/Nov/2021 11:34:57] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.60.30 - - [23/Nov/2021 14:19:19] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.60.30 - - [23/Nov/2021 14:19:20] "[37mGET /static/images/5.png HTTP/1.1[0m" 200 -
+10.0.60.30 - - [23/Nov/2021 14:19:20] "[37mGET /static/images/4.png HTTP/1.1[0m" 200 -
+10.0.60.30 - - [23/Nov/2021 14:19:20] "[37mGET /static/images/8.png HTTP/1.1[0m" 200 -
+10.0.60.30 - - [23/Nov/2021 14:19:20] "[37mGET /static/images/6.png HTTP/1.1[0m" 200 -
+10.0.60.30 - - [23/Nov/2021 14:19:20] "[37mGET /static/images/7.png HTTP/1.1[0m" 200 -
+10.0.60.30 - - [23/Nov/2021 14:19:20] "[37mGET /static/images/1.png HTTP/1.1[0m" 200 -
+10.0.60.30 - - [23/Nov/2021 14:19:20] "[37mGET /static/images/2.png HTTP/1.1[0m" 200 -
+10.0.60.30 - - [23/Nov/2021 14:19:20] "[37mGET /static/images/3.png HTTP/1.1[0m" 200 -
+10.0.60.30 - - [23/Nov/2021 14:19:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+10.0.60.30 - - [23/Nov/2021 14:19:22] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:39:49] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:39:49] "[37mGET /static/images/1.png HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:39:49] "[37mGET /static/images/2.png HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:39:49] "[37mGET /static/images/3.png HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:39:49] "[37mGET /static/images/4.png HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:39:49] "[37mGET /static/images/5.png HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:39:49] "[37mGET /static/images/7.png HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:39:49] "[37mGET /static/images/6.png HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:39:49] "[37mGET /static/images/8.png HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:39:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+10.0.200.76 - - [28/Nov/2021 08:39:54] "[37mPOST / HTTP/1.1[0m" 200 -
+tensor(-0.0344, device='cuda:0') tensor(0.7047, device='cuda:0')
+tensor(-0.0171, device='cuda:0') tensor(-0.0765, device='cuda:0')
+tensor(-0.0291, device='cuda:0') tensor(0.0263, device='cuda:0')
+tensor(0.0137, device='cuda:0') tensor(0.5012, device='cuda:0')
+tensor(-0.0298, device='cuda:0') tensor(0.0432, device='cuda:0')
+tensor(-0.0681, device='cuda:0') tensor(-0.0711, device='cuda:0')
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.81it/s]100%|██████████| 1/1 [00:00<00:00,  9.79it/s]
+10.0.200.76 - - [28/Nov/2021 08:39:57] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  8.96it/s]100%|██████████| 1/1 [00:00<00:00,  8.95it/s]
+10.0.200.76 - - [28/Nov/2021 08:40:22] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  9.11it/s]100%|██████████| 1/1 [00:00<00:00,  9.09it/s]
+10.0.200.76 - - [28/Nov/2021 08:40:26] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  8.32it/s]100%|██████████| 1/1 [00:00<00:00,  8.31it/s]
+10.0.200.76 - - [28/Nov/2021 08:40:37] "[37mPOST / HTTP/1.1[0m" 200 -
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00,  8.91it/s]100%|██████████| 1/1 [00:00<00:00,  8.89it/s]
+10.0.200.76 - - [28/Nov/2021 08:40:41] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:40:48] "[37mGET / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:40:49] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:40:50] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:40:57] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:41:05] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:41:11] "[37mPOST / HTTP/1.1[0m" 200 -
+10.0.200.76 - - [28/Nov/2021 08:41:16] "[37mPOST / HTTP/1.1[0m" 200 -
